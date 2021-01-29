@@ -1,1 +1,3 @@
-# jogo_sem_nome_ggj2021
+# Dope Doge
+
+Poucas palavras: Vira-lata caramelo, explosões, B O  N   K.
