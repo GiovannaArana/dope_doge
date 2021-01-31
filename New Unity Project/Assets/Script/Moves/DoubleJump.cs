@@ -28,7 +28,7 @@ public class DoubleJump : MonoBehaviour, IMoveBehaviour {
         Vector3 pos = player.transform.position + direction;
         Collider2D col2d = Physics2D.OverlapBox(pos, new Vector2(1f, 1f), 1f, 1);
 
-    	if(col2d == null || (col2d != null && col2d.gameObject.tag == "Move")){
+    	if(col2d == null || (col2d != null && (col2d.gameObject.tag == "Move" || col2d.gameObject.tag == "EndGameFlag"))){
 
 	    	if(!player.GetComponent<GridGravity>().onAir){
 	    		Jump();

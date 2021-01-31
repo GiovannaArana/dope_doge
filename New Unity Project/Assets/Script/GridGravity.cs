@@ -36,7 +36,7 @@ public class GridGravity : MonoBehaviour
 
         col2d = Physics2D.OverlapBox(pos, new Vector2(1f, 1f), 1f, 1);
 
-        if(col2d == null || (col2d != null && col2d.gameObject.tag == "Move") || (col2d != null && col2d.gameObject.tag == "Box" && col2d.GetComponent<GridGravity>().onAir)){
+        if(col2d == null || ((col2d != null && (col2d.gameObject.tag == "Move" || (col2d.gameObject.tag == "Box" && col2d.GetComponent<GridGravity>().onAir) || col2d.gameObject.tag == "EndGameFlag" || col2d.gameObject.tag == "KillFloor")))){
 
         	if(!onAir){
         		onAirTime = Time.time + 1f;
@@ -49,8 +49,10 @@ public class GridGravity : MonoBehaviour
                 if(tag == "Dog")
                     GetComponent<PlayerMovement>().movePoint.position += new Vector3(0f, -2f, 0f);
 
-                else if(tag == "Box")
-                    GetComponent<BoxBehaviour>().movePoint.position += new Vector3(0f, -2f, 0f);
+                else if(tag == "Box"){
+                    if(!(col2d != null && col2d.gameObject.tag == "EndGameFlag"))
+                        GetComponent<BoxBehaviour>().movePoint.position += new Vector3(0f, -2f, 0f);
+                }
 
         		onAirTime = Time.time + 1f;
         		hasMovedOnAir = false;
