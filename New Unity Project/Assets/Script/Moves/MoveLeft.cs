@@ -21,14 +21,21 @@ public class MoveLeft : MonoBehaviour, IMoveBehaviour {
 
     	Vector3 pos = player.transform.position + direction;
         Collider2D col2d = Physics2D.OverlapBox(pos, new Vector2(1f, 1f), 1f, 1);
+        bool isPossible = true;
+        player.GetComponent<SpriteRenderer>().flipX = false;
 
-    	if(col2d == null  || (col2d != null && col2d.gameObject.tag == "Move")){
+    	if(col2d == null  || ((col2d != null && (col2d.gameObject.tag == "Move" || col2d.gameObject.tag == "Box")))){
 
 	    	if(!player.GetComponent<GridGravity>().onAir || (player.GetComponent<GridGravity>().onAir && !player.GetComponent<GridGravity>().hasMovedOnAir)){
 
-	        	player.GetComponent<PlayerMovement>().movePoint.position += new Vector3(-2f, 0f, 0f);
-	        	player.GetComponent<SpriteRenderer>().flipX = false;
-	        	player.GetComponent<GridGravity>().hasMovedOnAir = true;
+	    		if(col2d != null && col2d.gameObject.tag == "Box"){
+	        		isPossible = col2d.gameObject.GetComponent<BoxBehaviour>().MoveToDirection(direction);
+	        	}
+
+	        	if(isPossible){
+		        	player.GetComponent<PlayerMovement>().movePoint.position += new Vector3(-2f, 0f, 0f);
+		        	player.GetComponent<GridGravity>().hasMovedOnAir = true;
+	        	}
 	        }
 	    }
     }

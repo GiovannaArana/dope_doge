@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour {
         	if(Input.GetKey(key[0]))
         		StartCoroutine(ChangeMove(col2d));
 
-    	if(!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.F) && !Input.GetKey(KeyCode.Q))
+    	if(!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.F) && !Input.GetKey(KeyCode.Q) && !Input.GetKey(KeyCode.E))
             hasMoved = false;
 
         else if(!hasMoved){
@@ -84,7 +84,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	    bool done = false;
 	    int pos = -1;
-	    float delayTime = Time.time + 0.2f;
+	    float delayTime = Time.time + 0.25f;
 
 	    //IMoveBehaviour[] clone = AllEmpty(mvs);
 	    enable = false;
@@ -94,15 +94,15 @@ public class PlayerMovement : MonoBehaviour {
 	    	if(Time.time > delayTime){
 		        pos = GetPosByKey();
 
-		        if(pos != -1)
+		        if(pos != -1){
 		        	break;
+		        }
 		    }
 
 	        yield return null;
 	    }
 
 	    //mvs = clone;
-	    enable = true;
 
 	    if(pos != 4){
 
@@ -114,6 +114,8 @@ public class PlayerMovement : MonoBehaviour {
 			    col2d.gameObject.SetActive(false);
 			}
 		}
+
+		enable = true;
 	}
 
 	public void DropMove(int pos){
