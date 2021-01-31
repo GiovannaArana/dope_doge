@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 6109540747436238882}
   - component: {fileID: 725926729526870407}
   - component: {fileID: 3542283729119043959}
+<<<<<<< HEAD
   - component: {fileID: 2144225203}
+=======
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
   m_Layer: 0
   m_Name: Bonk
   m_TagString: Move
@@ -27,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8429399715845115034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.18, y: 1.07, z: 0}
+  m_LocalPosition: {x: -1.18, y: 1.07, z: -528.85754}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -96,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf671ae6ee0fa5d4d81b09a4714bdd44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!61 &2144225203
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -122,3 +126,5 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais

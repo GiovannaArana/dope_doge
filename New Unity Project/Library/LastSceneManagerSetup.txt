@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/TestLevel.unity
+=======
+- path: Assets/Scenes/Nivel3.unity
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
   isLoaded: 1
   isActive: 1
   isSubScene: 0

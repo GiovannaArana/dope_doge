@@ -19,8 +19,14 @@ public class MoveRight : MonoBehaviour, IMoveBehaviour {
 		return new MoveRight(player);
 	}
     
+<<<<<<< HEAD
     public void Execute(){		
 		funcs.AndarComecou(player);
+=======
+    public void Execute(){
+
+		funcs.AndarComecou();
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
     	Vector3 pos = player.transform.position + direction;
         Collider2D col2d = Physics2D.OverlapBox(pos, new Vector2(1f, 1f), 1f, 1);
         bool isPossible = true;

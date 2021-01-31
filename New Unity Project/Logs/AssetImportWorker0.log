@@ -15,11 +15,19 @@ E:/Users/T-Gamer/jogo_sem_nome_ggj2021/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 56038
 Successfully changed project path to: E:/Users/T-Gamer/jogo_sem_nome_ggj2021/New Unity Project
 E:/Users/T-Gamer/jogo_sem_nome_ggj2021/New Unity Project
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 38.47 ms, found 1 plugins.
+=======
+55639
+Successfully changed project path to: E:/Users/T-Gamer/jogo_sem_nome_ggj2021/New Unity Project
+E:/Users/T-Gamer/jogo_sem_nome_ggj2021/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.67 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path E:/Program Files/Unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,20 +43,32 @@ Initialize mono
 Mono path[0] = 'E:/Program Files/Unity/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Program Files/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Program Files/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Program Files/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: E:/Program Files/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.005176 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 32.75 ms, found 1 plugins.
+=======
+Registered in 0.005295 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.92 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  2.352 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
@@ -57,23 +77,42 @@ Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 33.66 ms, found 1 plugins.
+=======
+- Completed reload, in  2.368 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.19 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.884 seconds
+=======
+- Completed reload, in  0.892 seconds
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+=======
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.0 MB.
-System memory in use after: 85.0 MB.
+System memory in use after: 84.9 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+<<<<<<< HEAD
 Total: 1.907000 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.080100 ms MarkObjects: 1.474800 ms  DeleteObjects: 0.111100 ms)
 
 ========================================================================
@@ -90,11 +129,49 @@ Received Import Request.
   artifactKey: Guid(488b925bdfb9a8242a401a10218f9cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/DoggoOficial.prefab using Guid(488b925bdfb9a8242a401a10218f9cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44933c13f4e22e9df0c3b528e38b66e') in 0.014581 seconds
   Import took 0.017144 seconds .
+=======
+Total: 2.015300 ms (FindLiveObjects: 0.177600 ms CreateObjectMapping: 0.097300 ms MarkObjects: 1.621600 ms  DeleteObjects: 0.117600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animations/VideoTexture.asset
+  artifactKey: Guid(d7768bccc54dd684da30662907a1f1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/VideoTexture.asset using Guid(d7768bccc54dd684da30662907a1f1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0562dd2a5480ea723bacd6227fb457de') in 0.077901 seconds
+  Import took 0.080387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.404782 seconds.
+  path: Assets/Animations/DoggoOficial.controller
+  artifactKey: Guid(651472c1ec2d688419a58a91de26608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DoggoOficial.controller using Guid(651472c1ec2d688419a58a91de26608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0b9016f6f17b8731f1e2e4b7cef4bd') in 0.007421 seconds
+  Import took 0.010289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.129186 seconds.
+  path: Assets/Animations/Andar.anim
+  artifactKey: Guid(1c419d3018eedd1448b21b9f33898a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Andar.anim using Guid(1c419d3018eedd1448b21b9f33898a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7808d0a3054bc467df76baa4a43ee3') in 0.005261 seconds
+  Import took 0.007709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065703 seconds.
+  path: Assets/Animations/Andar.anim
+  artifactKey: Guid(1c419d3018eedd1448b21b9f33898a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Andar.anim using Guid(1c419d3018eedd1448b21b9f33898a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7808d0a3054bc467df76baa4a43ee3') in 0.006765 seconds
+  Import took 0.010781 seconds .
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001538 seconds.
+=======
+Registered in 0.001708 seconds.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -104,21 +181,26 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.824 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+- Completed reload, in  0.806 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.1 MB.
 System memory in use after: 88.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 1.948800 ms (FindLiveObjects: 0.171000 ms CreateObjectMapping: 0.075300 ms MarkObjects: 1.611500 ms  DeleteObjects: 0.089800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 1.858000 ms (FindLiveObjects: 0.187100 ms CreateObjectMapping: 0.071700 ms MarkObjects: 1.508700 ms  DeleteObjects: 0.089400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001713 seconds.
+Registered in 0.001622 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -128,14 +210,59 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+<<<<<<< HEAD
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2270.
+Total: 1.948800 ms (FindLiveObjects: 0.171000 ms CreateObjectMapping: 0.075300 ms MarkObjects: 1.611500 ms  DeleteObjects: 0.089800 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 1.697300 ms (FindLiveObjects: 0.168900 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.345900 ms  DeleteObjects: 0.124200 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.001713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+=======
+Registered in 0.001572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.812 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+- Completed reload, in  0.817 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.2 MB.
 System memory in use after: 88.2 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2273.
 Total: 2.056700 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.091100 ms MarkObjects: 1.622900 ms  DeleteObjects: 0.090100 ms)
 
@@ -146,21 +273,61 @@ Received Import Request.
   artifactKey: Guid(43b02c659f8d5a243916a1d7ea4460d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Bonk.prefab using Guid(43b02c659f8d5a243916a1d7ea4460d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381bf3b8a3b81ff95507a444a67a8144') in 0.043785 seconds
   Import took 0.046465 seconds .
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 1.769900 ms (FindLiveObjects: 0.180600 ms CreateObjectMapping: 0.078900 ms MarkObjects: 1.418200 ms  DeleteObjects: 0.090900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001545 seconds.
+Registered in 0.001520 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 1.949000 ms (FindLiveObjects: 0.292700 ms CreateObjectMapping: 0.089500 ms MarkObjects: 1.429600 ms  DeleteObjects: 0.131300 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.001545 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+Registered in 0.001588 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.822 seconds
+=======
+- Completed reload, in  0.826 seconds
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -168,22 +335,36 @@ Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.3 MB.
 System memory in use after: 88.3 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2277.
 Total: 1.849800 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.062100 ms MarkObjects: 1.521700 ms  DeleteObjects: 0.098700 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 1.990000 ms (FindLiveObjects: 0.167700 ms CreateObjectMapping: 0.067600 ms MarkObjects: 1.637900 ms  DeleteObjects: 0.115700 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001535 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+Registered in 0.001496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.825 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
@@ -194,11 +375,22 @@ System memory in use after: 88.4 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2280.
 Total: 2.200000 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.075900 ms MarkObjects: 1.837700 ms  DeleteObjects: 0.093300 ms)
+=======
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 1.772400 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.112900 ms MarkObjects: 1.323200 ms  DeleteObjects: 0.123900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001531 seconds.
+Registered in 0.001524 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -208,6 +400,40 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 2.113200 ms (FindLiveObjects: 0.204800 ms CreateObjectMapping: 0.073200 ms MarkObjects: 1.704700 ms  DeleteObjects: 0.129600 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.001531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+Registered in 0.002141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.791 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
@@ -242,21 +468,45 @@ Received Import Request.
   artifactKey: Guid(43b02c659f8d5a243916a1d7ea4460d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Bonk.prefab using Guid(43b02c659f8d5a243916a1d7ea4460d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e987b349f29b7a24578b496e142aecd8') in 0.012729 seconds
   Import took 0.015414 seconds .
+=======
+- Completed reload, in  0.795 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 2.019400 ms (FindLiveObjects: 0.170000 ms CreateObjectMapping: 0.074600 ms MarkObjects: 1.677200 ms  DeleteObjects: 0.096700 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001617 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+=======
+Registered in 0.001527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.815 seconds
+=======
+- Completed reload, in  0.801 seconds
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -264,85 +514,175 @@ Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.6 MB.
 System memory in use after: 88.6 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
 Total: 2.012900 ms (FindLiveObjects: 0.159200 ms CreateObjectMapping: 0.058500 ms MarkObjects: 1.697800 ms  DeleteObjects: 0.096500 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2292.
+Total: 1.895000 ms (FindLiveObjects: 0.159400 ms CreateObjectMapping: 0.064100 ms MarkObjects: 1.575000 ms  DeleteObjects: 0.095400 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001528 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+=======
+Registered in 0.001487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.927 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.7 MB.
 System memory in use after: 88.7 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2290.
 Total: 2.182800 ms (FindLiveObjects: 0.266500 ms CreateObjectMapping: 0.103600 ms MarkObjects: 1.720900 ms  DeleteObjects: 0.089600 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
+Total: 4.271600 ms (FindLiveObjects: 0.362300 ms CreateObjectMapping: 0.180200 ms MarkObjects: 3.542900 ms  DeleteObjects: 0.184000 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.002217 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+Registered in 0.001501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.806 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+- Completed reload, in  0.791 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 1.958100 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.592200 ms  DeleteObjects: 0.126600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001582 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.827 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.8 MB.
 System memory in use after: 88.8 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2293.
 Total: 1.966700 ms (FindLiveObjects: 0.160900 ms CreateObjectMapping: 0.060600 ms MarkObjects: 1.650600 ms  DeleteObjects: 0.093500 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 1.825700 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.071500 ms MarkObjects: 1.475400 ms  DeleteObjects: 0.094800 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001506 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+=======
+Registered in 0.001702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.922 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.8 MB.
 System memory in use after: 88.8 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2296.
 Total: 1.902700 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.064400 ms MarkObjects: 1.568200 ms  DeleteObjects: 0.098400 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 2.060600 ms (FindLiveObjects: 0.160300 ms CreateObjectMapping: 0.057900 ms MarkObjects: 1.749800 ms  DeleteObjects: 0.091300 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001698 seconds.
+=======
+Registered in 0.001608 seconds.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -352,21 +692,36 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.927 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+=======
+- Completed reload, in  0.810 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.9 MB.
 System memory in use after: 88.9 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2299.
 Total: 2.383100 ms (FindLiveObjects: 0.170400 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.004700 ms  DeleteObjects: 0.139800 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2307.
+Total: 1.876500 ms (FindLiveObjects: 0.166100 ms CreateObjectMapping: 0.059500 ms MarkObjects: 1.554300 ms  DeleteObjects: 0.095200 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001503 seconds.
+=======
+Registered in 0.001521 seconds.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -376,6 +731,7 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.805 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
@@ -386,44 +742,84 @@ System memory in use after: 89.0 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2302.
 Total: 2.082300 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.090600 ms MarkObjects: 1.670800 ms  DeleteObjects: 0.099600 ms)
+=======
+- Completed reload, in  0.812 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 2.023500 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.092100 ms MarkObjects: 1.570000 ms  DeleteObjects: 0.096000 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001551 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+Registered in 0.001530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.897 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+=======
+- Completed reload, in  0.795 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.1 MB.
 System memory in use after: 89.1 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2305.
 Total: 1.914700 ms (FindLiveObjects: 0.213600 ms CreateObjectMapping: 0.060100 ms MarkObjects: 1.540000 ms  DeleteObjects: 0.098200 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 1.890700 ms (FindLiveObjects: 0.165100 ms CreateObjectMapping: 0.061700 ms MarkObjects: 1.535500 ms  DeleteObjects: 0.127000 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001585 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+=======
+Registered in 0.001541 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.912 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
@@ -434,155 +830,293 @@ System memory in use after: 89.1 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2308.
 Total: 2.138100 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.107700 ms MarkObjects: 1.631300 ms  DeleteObjects: 0.117800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001631 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
+=======
+- Completed reload, in  0.781 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.2 MB.
-System memory in use after: 89.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2311.
-Total: 1.798700 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.063500 ms MarkObjects: 1.481100 ms  DeleteObjects: 0.094600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001789 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.946 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.3 MB.
-System memory in use after: 89.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2314.
-Total: 2.279300 ms (FindLiveObjects: 0.395500 ms CreateObjectMapping: 0.161000 ms MarkObjects: 1.628000 ms  DeleteObjects: 0.093300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001702 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.899 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2317.
-Total: 2.050000 ms (FindLiveObjects: 0.231100 ms CreateObjectMapping: 0.076100 ms MarkObjects: 1.645100 ms  DeleteObjects: 0.096400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001662 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.5 MB.
 System memory in use after: 89.5 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2320.
-Total: 2.424600 ms (FindLiveObjects: 0.223700 ms CreateObjectMapping: 0.088000 ms MarkObjects: 1.977100 ms  DeleteObjects: 0.134500 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 2.002700 ms (FindLiveObjects: 0.254200 ms CreateObjectMapping: 0.093800 ms MarkObjects: 1.518500 ms  DeleteObjects: 0.135000 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.001631 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+Registered in 0.002218 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.2 MB.
+
+<<<<<<< HEAD
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2311.
+Total: 1.798700 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.063500 ms MarkObjects: 1.481100 ms  DeleteObjects: 0.094600 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 1.905700 ms (FindLiveObjects: 0.228800 ms CreateObjectMapping: 0.074400 ms MarkObjects: 1.473500 ms  DeleteObjects: 0.127700 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.001789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+=======
+Registered in 0.001527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+=======
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
+
+<<<<<<< HEAD
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2314.
+Total: 2.279300 ms (FindLiveObjects: 0.395500 ms CreateObjectMapping: 0.161000 ms MarkObjects: 1.628000 ms  DeleteObjects: 0.093300 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 1.934900 ms (FindLiveObjects: 0.165600 ms CreateObjectMapping: 0.062000 ms MarkObjects: 1.608600 ms  DeleteObjects: 0.097500 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.001702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+=======
+Registered in 0.001564 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+=======
+- Completed reload, in  0.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+<<<<<<< HEAD
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 2.050000 ms (FindLiveObjects: 0.231100 ms CreateObjectMapping: 0.076100 ms MarkObjects: 1.645100 ms  DeleteObjects: 0.096400 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 1.998300 ms (FindLiveObjects: 0.174300 ms CreateObjectMapping: 0.061000 ms MarkObjects: 1.661300 ms  DeleteObjects: 0.100500 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.001662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+Registered in 0.001791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+=======
+- Completed reload, in  0.841 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.5 MB.
+
+<<<<<<< HEAD
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 2.424600 ms (FindLiveObjects: 0.223700 ms CreateObjectMapping: 0.088000 ms MarkObjects: 1.977100 ms  DeleteObjects: 0.134500 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 2.173800 ms (FindLiveObjects: 0.260900 ms CreateObjectMapping: 0.117200 ms MarkObjects: 1.688800 ms  DeleteObjects: 0.105100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1620.862369 seconds.
+  path: Assets/Prefabs/DoggoOficial.prefab
+  artifactKey: Guid(488b925bdfb9a8242a401a10218f9cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DoggoOficial.prefab using Guid(488b925bdfb9a8242a401a10218f9cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbdff9f96614ea545705ae35fd00e79') in 0.070747 seconds
+  Import took 0.073839 seconds .
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001519 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+Registered in 0.001516 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.805 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+=======
+- Completed reload, in  0.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.6 MB.
 System memory in use after: 89.6 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2323.
 Total: 1.964400 ms (FindLiveObjects: 0.162700 ms CreateObjectMapping: 0.085900 ms MarkObjects: 1.620600 ms  DeleteObjects: 0.093400 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 2.180100 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.063700 ms MarkObjects: 1.794700 ms  DeleteObjects: 0.116000 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001521 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+Registered in 0.001501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.848 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+- Completed reload, in  0.834 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.7 MB.
 System memory in use after: 89.7 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2326.
 Total: 1.821500 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.070100 ms MarkObjects: 1.472200 ms  DeleteObjects: 0.096900 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 2.557400 ms (FindLiveObjects: 0.324500 ms CreateObjectMapping: 0.123200 ms MarkObjects: 2.008100 ms  DeleteObjects: 0.099100 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001888 seconds.
+=======
+Registered in 0.002193 seconds.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -592,45 +1126,79 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.815 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+=======
+- Completed reload, in  0.827 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.7 MB.
 System memory in use after: 89.7 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2329.
 Total: 1.929100 ms (FindLiveObjects: 0.172100 ms CreateObjectMapping: 0.064900 ms MarkObjects: 1.597700 ms  DeleteObjects: 0.093000 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 2.180000 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.077500 ms MarkObjects: 1.771100 ms  DeleteObjects: 0.097800 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001552 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+=======
+Registered in 0.001989 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.941 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.8 MB.
 System memory in use after: 89.8 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2332.
 Total: 4.245100 ms (FindLiveObjects: 0.447700 ms CreateObjectMapping: 0.836500 ms MarkObjects: 2.820200 ms  DeleteObjects: 0.138800 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 1.733100 ms (FindLiveObjects: 0.182500 ms CreateObjectMapping: 0.073000 ms MarkObjects: 1.386600 ms  DeleteObjects: 0.090400 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001843 seconds.
+=======
+Registered in 0.001841 seconds.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -640,30 +1208,51 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.802 seconds
+=======
+- Completed reload, in  0.791 seconds
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+<<<<<<< HEAD
 System memory in use before: 89.9 MB.
 System memory in use after: 89.9 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2335.
 Total: 2.014400 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.075900 ms MarkObjects: 1.650400 ms  DeleteObjects: 0.098300 ms)
+=======
+System memory in use before: 90.3 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 1.988800 ms (FindLiveObjects: 0.357500 ms CreateObjectMapping: 0.082800 ms MarkObjects: 1.420000 ms  DeleteObjects: 0.127600 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001557 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+Registered in 0.001568 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.794 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
@@ -674,45 +1263,88 @@ System memory in use after: 90.0 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2338.
 Total: 1.875700 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.068900 ms MarkObjects: 1.518500 ms  DeleteObjects: 0.095400 ms)
+=======
+- Completed reload, in  0.793 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.4 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 1.981300 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.079400 ms MarkObjects: 1.606200 ms  DeleteObjects: 0.095100 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001527 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+=======
+Registered in 0.001581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.801 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+=======
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 90.1 MB.
 System memory in use after: 90.1 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2341.
 Total: 3.426100 ms (FindLiveObjects: 0.357500 ms CreateObjectMapping: 0.136200 ms MarkObjects: 2.782700 ms  DeleteObjects: 0.147700 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 1.991800 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.081300 ms MarkObjects: 1.579600 ms  DeleteObjects: 0.094300 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001517 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+=======
+Registered in 0.001540 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.987 seconds
+=======
+- Completed reload, in  0.830 seconds
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -720,13 +1352,22 @@ Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 90.1 MB.
 System memory in use after: 90.1 MB.
 
+<<<<<<< HEAD
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2344.
 Total: 2.177400 ms (FindLiveObjects: 0.278100 ms CreateObjectMapping: 0.098700 ms MarkObjects: 1.693900 ms  DeleteObjects: 0.105000 ms)
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2357.
+Total: 2.108500 ms (FindLiveObjects: 0.279000 ms CreateObjectMapping: 0.099700 ms MarkObjects: 1.633500 ms  DeleteObjects: 0.094800 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001546 seconds.
+=======
+Registered in 0.001505 seconds.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -736,9 +1377,15 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.815 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+- Completed reload, in  0.823 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.8 MB.
@@ -763,6 +1410,7 @@ Received Import Request.
 Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07b93f041c59bf82658c8a697559aae') in 0.131425 seconds
   Import took 0.134303 seconds .
 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 0.000264 seconds.
@@ -802,20 +1450,33 @@ Received Import Request.
   artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e93136860a214abc0faa3304291c7e') in 0.033813 seconds
   Import took 0.036647 seconds .
+=======
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 2.032500 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.057200 ms MarkObjects: 1.711600 ms  DeleteObjects: 0.101800 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001623 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+=======
+Registered in 0.001532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.941 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
@@ -826,20 +1487,41 @@ System memory in use after: 93.0 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2422.
 Total: 2.413700 ms (FindLiveObjects: 0.203500 ms CreateObjectMapping: 0.085700 ms MarkObjects: 1.737500 ms  DeleteObjects: 0.385500 ms)
+=======
+- Completed reload, in  0.806 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.7 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 1.854900 ms (FindLiveObjects: 0.192400 ms CreateObjectMapping: 0.060000 ms MarkObjects: 1.506600 ms  DeleteObjects: 0.094000 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001531 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+=======
+Registered in 0.001510 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.804 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
@@ -850,20 +1532,41 @@ System memory in use after: 92.1 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2425.
 Total: 5.689500 ms (FindLiveObjects: 0.464200 ms CreateObjectMapping: 0.231400 ms MarkObjects: 4.123100 ms  DeleteObjects: 0.868100 ms)
+=======
+- Completed reload, in  0.794 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2366.
+Total: 4.171800 ms (FindLiveObjects: 0.483700 ms CreateObjectMapping: 0.189400 ms MarkObjects: 3.314800 ms  DeleteObjects: 0.181900 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001539 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+=======
+Registered in 0.001512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.802 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
@@ -874,20 +1577,41 @@ System memory in use after: 92.2 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2428.
 Total: 2.280400 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.061600 ms MarkObjects: 1.665700 ms  DeleteObjects: 0.325900 ms)
+=======
+- Completed reload, in  0.837 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 1.980700 ms (FindLiveObjects: 0.180200 ms CreateObjectMapping: 0.067400 ms MarkObjects: 1.640800 ms  DeleteObjects: 0.091100 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001557 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+=======
+Registered in 0.002128 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.961 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
@@ -898,20 +1622,49 @@ System memory in use after: 92.2 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2431.
 Total: 2.466800 ms (FindLiveObjects: 0.272000 ms CreateObjectMapping: 0.099200 ms MarkObjects: 1.748600 ms  DeleteObjects: 0.344900 ms)
+=======
+- Completed reload, in  0.975 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2372.
+Total: 2.066600 ms (FindLiveObjects: 0.275400 ms CreateObjectMapping: 0.109800 ms MarkObjects: 1.591400 ms  DeleteObjects: 0.088600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1467.759245 seconds.
+  path: Assets/Prefabs/Bonk.prefab
+  artifactKey: Guid(43b02c659f8d5a243916a1d7ea4460d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bonk.prefab using Guid(43b02c659f8d5a243916a1d7ea4460d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89575103d12f56120a620d1f3e67ace') in 0.063284 seconds
+  Import took 0.066032 seconds .
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001636 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+Registered in 0.001547 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.859 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
@@ -922,20 +1675,41 @@ System memory in use after: 92.3 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2434.
 Total: 2.401300 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.097000 ms MarkObjects: 1.694300 ms  DeleteObjects: 0.327800 ms)
+=======
+- Completed reload, in  0.807 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2376.
+Total: 2.041600 ms (FindLiveObjects: 0.256100 ms CreateObjectMapping: 0.079800 ms MarkObjects: 1.609900 ms  DeleteObjects: 0.094500 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001938 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+=======
+Registered in 0.001646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.959 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
@@ -954,20 +1728,41 @@ Received Import Request.
   artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0c715d0ccba0be140e13a18c05ac76') in 0.075982 seconds
   Import took 0.078865 seconds .
+=======
+- Completed reload, in  0.838 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2379.
+Total: 2.127300 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.073200 ms MarkObjects: 1.766000 ms  DeleteObjects: 0.104100 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001610 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+=======
+Registered in 0.001934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.800 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
@@ -978,20 +1773,41 @@ System memory in use after: 92.5 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2442.
 Total: 2.090600 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.063600 ms MarkObjects: 1.516400 ms  DeleteObjects: 0.319200 ms)
+=======
+- Completed reload, in  0.963 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 1.993800 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.063400 ms MarkObjects: 1.662800 ms  DeleteObjects: 0.095800 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001630 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+=======
+Registered in 0.001543 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.961 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
@@ -1162,11 +1978,27 @@ Received Import Request.
   artifactKey: Guid(488b925bdfb9a8242a401a10218f9cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/DoggoOficial.prefab using Guid(488b925bdfb9a8242a401a10218f9cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4319fcf9e7918cf82a92bb5463d787b') in 0.019571 seconds
   Import took 0.022490 seconds .
+=======
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 1.990700 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.066800 ms MarkObjects: 1.640700 ms  DeleteObjects: 0.097500 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001527 seconds.
+=======
+Registered in 0.001505 seconds.
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -1176,6 +2008,7 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.802 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
@@ -2210,5 +3043,17 @@ System memory in use after: 92.9 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2559.
 Total: 2.070900 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.471200 ms  DeleteObjects: 0.334800 ms)
+=======
+- Completed reload, in  0.796 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.4 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2388.
+Total: 4.673400 ms (FindLiveObjects: 0.611900 ms CreateObjectMapping: 0.373900 ms MarkObjects: 3.446300 ms  DeleteObjects: 0.238300 ms)
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

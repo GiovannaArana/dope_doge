@@ -32,11 +32,14 @@ public class Bonk : MonoBehaviour, IMoveBehaviour {
         if(col2d != null && col2d.gameObject.tag == "Box"){
 			funcs.Bonk(player);
         	col2d.gameObject.GetComponent<BoxBehaviour>().Explode();
+<<<<<<< HEAD
 		}
 		if(col2d != null && col2d.gameObject.tag == "Trash"){
 			funcs.Bonk(player);
 			col2d.gameObject.GetComponent<Trash>().Explode();
 		}
+=======
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
     }
 
     public void PseudoUpdate(){}

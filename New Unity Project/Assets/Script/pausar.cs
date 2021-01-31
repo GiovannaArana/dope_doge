@@ -21,13 +21,21 @@ public class pausar : MonoBehaviour{
         else{Despausar();}
     }
 
+<<<<<<< HEAD
     public void Despausar(){               
+=======
+    public void Despausar(){        
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
         Time.timeScale = 1f;        
         menu.SetActive(false);
     }
 
     public void Pausar(){        
+<<<<<<< HEAD
         //Time.timeScale = 0;
+=======
+        Time.timeScale = 0;
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
         menu.SetActive(true);
     }
 

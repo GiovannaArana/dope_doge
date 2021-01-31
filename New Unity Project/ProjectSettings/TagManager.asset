@@ -9,9 +9,12 @@ TagManager:
   - Box
   - Dog
   - KillFloor
+<<<<<<< HEAD
   - Pause
   - Slot
   - Trash
+=======
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
   layers:
   - Default
   - TransparentFX

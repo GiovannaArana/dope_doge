@@ -1464,7 +1464,7 @@ TilemapCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.28}
+  m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
 --- !u!1001 &1099613718
@@ -1670,6 +1670,7 @@ Transform:
   - {fileID: 763350204}
   - {fileID: 17128532}
   - {fileID: 989723847}
+  - {fileID: 941402358}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1694,7 +1695,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2271295222576334034, guid: d144ec7535b89af498dd876e00eeaacd, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 0
+=======
+      value: 3
+>>>>>>> parent of dc9bdad... Mudanças ULTRA mega SUPER Radicais
       objectReference: {fileID: 0}
     - target: {fileID: 2271295222576334034, guid: d144ec7535b89af498dd876e00eeaacd, type: 3}
       propertyPath: m_AnchorMax.x
