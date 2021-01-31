@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CheckCollider : MonoBehaviour {
-
-	public GameObject endHud;
-
+public class CheckCollider : MonoBehaviour
+{
+    
     void Start()
     {
         
@@ -15,21 +14,9 @@ public class CheckCollider : MonoBehaviour {
     
     void Update() {
         
-        // Collider2D col2d = Physics2D.OverlapBox(transform.position + new Vector3(0f, -2f, 0f), new Vector2(1f, 1f), 1f, 1);
-        Collider2D col2d = Physics2D.OverlapBox(transform.position, new Vector2(1f, 1f), 1f, 1);
+        Collider2D col2dFall = Physics2D.OverlapBox(transform.position + new Vector3(0f, -2f, 0f), new Vector2(1f, 1f), 1f, 1);
 
-        if(col2d != null && col2d.gameObject.tag == "KillFloor"){
-
-        	if(tag != "Dog")
-        		Destroy(gameObject);
-        	else
-        		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-
-        if(col2d != null && col2d.gameObject.tag == "EndGameFlag"){
-        	
-        	if(tag == "Dog")
-        		endHud.SetActive(true);
-        }
+        if(col2dFall != null && col2dFall.gameObject.tag == "KillFloor")
+        	SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

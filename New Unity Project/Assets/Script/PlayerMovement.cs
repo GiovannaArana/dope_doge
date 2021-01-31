@@ -35,49 +35,43 @@ public class PlayerMovement : MonoBehaviour {
 
     void Update(){
 
-    	if(!PauseMenu.isPaused){
-	    	transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
+    	transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
 
-	    	for(int i = 0; i < mvs.Length; i++)
-	    		mvs[i].PseudoUpdate();
+    	for(int i = 0; i < mvs.Length; i++)
+    		mvs[i].PseudoUpdate();
 
-	        Collider2D col2d = Physics2D.OverlapBox(transform.position, new Vector2(1f, 1f), 1f, 1);
+        Collider2D col2d = Physics2D.OverlapBox(transform.position, new Vector2(1f, 1f), 1f, 1);
 
-	        // if(col2d != null && col2d.gameObject.tag == "Move")
-	        // 	if(Input.GetKey(key[0]))
-	        // 		StartCoroutine(ChangeMove(col2d));
+        if(col2d != null && col2d.gameObject.tag == "Move")
+        	if(Input.GetKey(key[0]))
+        		StartCoroutine(ChangeMove(col2d));
 
-	    	if(!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.F) && !Input.GetKey(KeyCode.Q) && !Input.GetKey(KeyCode.E))
-	            hasMoved = false;
+    	if(!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.F) && !Input.GetKey(KeyCode.Q) && !Input.GetKey(KeyCode.E))
+            hasMoved = false;
 
-	        else if(!hasMoved){
+        else if(!hasMoved){
 
-	        	hasMoved = true;
+        	hasMoved = true;
 
-		    	if(Vector3.Distance(transform.position, movePoint.position) <= 0.05f && enable){
+	    	if(Vector3.Distance(transform.position, movePoint.position) <= 0.05f && enable){
 
-		    		if(Input.GetKey(key[0]))
-		    			if(col2d != null && col2d.gameObject.tag == "Move")
-		    				StartCoroutine(ChangeMove(col2d));
+		        if(Input.GetKey(key[2]))
+		        	mvs[0].Execute();
 
-			        if(Input.GetKey(key[2]))
-			        	mvs[0].Execute();
+		        if(Input.GetKey(key[3]))
+		        	mvs[1].Execute();
 
-			        if(Input.GetKey(key[3]))
-			        	mvs[1].Execute();
+		        if(Input.GetKey(key[4]))
+		        	mvs[2].Execute();
 
-			        if(Input.GetKey(key[4]))
-			        	mvs[2].Execute();
+		        if(Input.GetKey(key[5]))
+		        	mvs[3].Execute();
 
-			        if(Input.GetKey(key[5]))
-			        	mvs[3].Execute();
-
-			        if(Input.GetKey(key[1])){
-			        	if(col2d == null)
-			        		StartCoroutine(ChangeMove(null));
-			        }
-			    }
-			}
+		        if(Input.GetKey(key[1])){
+		        	if(col2d == null)
+		        		StartCoroutine(ChangeMove(null));
+		        }
+		    }
 		}
     }
 

@@ -19,19 +19,14 @@ public class MoveRight : MonoBehaviour, IMoveBehaviour {
 		return new MoveRight(player);
 	}
     
-<<<<<<< HEAD
     public void Execute(){		
-=======
-    public void Execute(){
-
->>>>>>> pr/12
 		funcs.AndarComecou(player);
     	Vector3 pos = player.transform.position + direction;
         Collider2D col2d = Physics2D.OverlapBox(pos, new Vector2(1f, 1f), 1f, 1);
         bool isPossible = true;
         player.GetComponent<SpriteRenderer>().flipX = true;
 
-    	if(col2d == null || ((col2d != null && (col2d.gameObject.tag == "Move" || col2d.gameObject.tag == "Box" || col2d.gameObject.tag == "EndGameFlag")))){
+    	if(col2d == null || ((col2d != null && (col2d.gameObject.tag == "Move" || col2d.gameObject.tag == "Box")))){
 
 	    	if(!player.GetComponent<GridGravity>().onAir || (player.GetComponent<GridGravity>().onAir && !player.GetComponent<GridGravity>().hasMovedOnAir)){
 

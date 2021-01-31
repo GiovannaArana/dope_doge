@@ -11,7 +11,7 @@ TagManager:
   - KillFloor
   - Pause
   - Slot
-  - EndGameFlag
+  - Trash
   layers:
   - Default
   - TransparentFX
