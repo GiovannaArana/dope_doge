@@ -46,3 +46,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Dog
+    uniqueID: 2128735741
+    locked: 0
+  - name: HUD
+    uniqueID: 2187378573
+    locked: 0
