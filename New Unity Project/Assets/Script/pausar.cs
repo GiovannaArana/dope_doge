@@ -21,13 +21,13 @@ public class pausar : MonoBehaviour{
         else{Despausar();}
     }
 
-    public void Despausar(){        
+    public void Despausar(){               
         Time.timeScale = 1f;        
         menu.SetActive(false);
     }
 
     public void Pausar(){        
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
         menu.SetActive(true);
     }
 

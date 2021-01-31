@@ -19,9 +19,8 @@ public class MoveRight : MonoBehaviour, IMoveBehaviour {
 		return new MoveRight(player);
 	}
     
-    public void Execute(){
-
-		funcs.AndarComecou();
+    public void Execute(){		
+		funcs.AndarComecou(player);
     	Vector3 pos = player.transform.position + direction;
         Collider2D col2d = Physics2D.OverlapBox(pos, new Vector2(1f, 1f), 1f, 1);
         bool isPossible = true;
