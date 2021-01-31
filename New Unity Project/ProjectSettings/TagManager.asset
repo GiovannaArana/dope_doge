@@ -9,6 +9,7 @@ TagManager:
   - Box
   - Dog
   - Slot
+  - Pause
   layers:
   - Default
   - TransparentFX
