@@ -29,6 +29,9 @@ public class Bonk : MonoBehaviour, IMoveBehaviour {
 
         if(col2d != null && col2d.gameObject.tag == "Box")
         	col2d.gameObject.GetComponent<BoxBehaviour>().Explode();
+
+        if(col2d != null && col2d.gameObject.tag == "Trash")
+            col2d.gameObject.GetComponent<Trash>().Explode();
     }
 
     public void PseudoUpdate(){}
