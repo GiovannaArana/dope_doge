@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour {
 	public float moveSpeed;
 	public Transform movePoint;
 	public bool hasMoved;
-	public bool enable;
+	public bool enable;	
 
 	public IMoveBehaviour[] mvs;
 	public GameObject[] mvsObj;
@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour {
 
         movePoint.parent = null;
         enable = true;
-        mvs = new IMoveBehaviour[4];
+        mvs = new IMoveBehaviour[4];		
 
         key = new KeyCode[6] {KeyCode.E, KeyCode.Q, KeyCode.A, KeyCode.S, KeyCode.D, KeyCode.F};
 
