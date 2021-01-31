@@ -9,6 +9,9 @@ TagManager:
   - Box
   - Dog
   - KillFloor
+  - Pause
+  - Slot
+  - Trash
   layers:
   - Default
   - TransparentFX
