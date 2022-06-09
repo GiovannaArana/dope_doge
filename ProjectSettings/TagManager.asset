@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Move
+  - Ground
+  - Box
+  - Dog
+  - KillFloor
+  - Pause
+  - Slot
+  - EndGameFlag
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Above All
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 3445383067
+    locked: 0
+  - name: TileSet
+    uniqueID: 1492507837
+    locked: 0
+  - name: Box
+    uniqueID: 4048862013
+    locked: 0
+  - name: Move
+    uniqueID: 566279045
+    locked: 0
+  - name: Dog
+    uniqueID: 2494473895
+    locked: 0
