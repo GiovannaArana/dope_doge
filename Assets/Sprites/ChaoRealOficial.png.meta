@@ -57,6 +57,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -66,8 +67,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -364,6 +365,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ChaoRealOficial_2: -430427294984584036
+      ChaoRealOficial_0: 6660714357049634559
+      ChaoRealOficial_1: 5141140692036710791
+      ChaoRealOficial_5: -5867551270683265316
+      ChaoRealOficial_8: 1457111129249496389
+      ChaoRealOficial_7: -4928153731421702195
+      ChaoRealOficial_9: -4132974388046775891
+      ChaoRealOficial_4: -9175708511480624471
+      ChaoRealOficial_6: 149744259933390288
+      ChaoRealOficial_10: -6443933825266931336
+      ChaoRealOficial_3: 2146760677931426301
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
