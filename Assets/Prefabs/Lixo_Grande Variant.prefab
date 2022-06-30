@@ -7,6 +7,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 886325905941695016, guid: 9faf693d605ec29448c940b9177da441, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 886325905941695016, guid: 9faf693d605ec29448c940b9177da441, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 886325905941695016, guid: 9faf693d605ec29448c940b9177da441, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 886325905941695020, guid: 9faf693d605ec29448c940b9177da441, type: 3}
+      propertyPath: m_Name
+      value: Lixo_Grande Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 5945822082719060656, guid: 9faf693d605ec29448c940b9177da441, type: 3}
       propertyPath: m_Name
       value: Lixo_Grande

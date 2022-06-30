@@ -1,40 +1,7 @@
 fileFormatVersion: 2
 guid: 56c6fca5d4bb26240b9c8a3aa265641b
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 2779042383628015301
-    second: ChaoRealOficial2_0
-  - first:
-      213: -4318107399261786952
-    second: ChaoRealOficial2_3
-  - first:
-      213: 2892351123971795816
-    second: ChaoRealOficial2_4
-  - first:
-      213: -1611016405819488675
-    second: ChaoRealOficial2_5
-  - first:
-      213: -5944621542966066844
-    second: ChaoRealOficial2_6
-  - first:
-      213: -8605895397474202973
-    second: ChaoRealOficial2_8
-  - first:
-      213: -5399213622142822728
-    second: ChaoRealOficial2_10
-  - first:
-      213: 5296236748068563786
-    second: ChaoRealOficial2_11
-  - first:
-      213: 6664679820284358778
-    second: ChaoRealOficial2_12
-  - first:
-      213: -2309729912533787840
-    second: ChaoRealOficial2_14
-  - first:
-      213: -1033683908289546445
-    second: ChaoRealOficial2_15
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -80,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -114,7 +81,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,10 +119,10 @@ TextureImporter:
       name: ChaoRealOficial2_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 216
-        width: 64
-        height: 64
+        x: 0
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,8 +130,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c617ebe254219620800000000000000
-      internalID: 2779042383628015301
+      spriteID: 5dec8952f91e62f4bb1152f9fa429ce6
+      internalID: 1944007238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00e5e9e3f8d1c04a8f25c15569412f9
+      internalID: 722090608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20716f34a4a88348a44d4dcb65b74b9
+      internalID: -686459631
       vertices: []
       indices: 
       edges: []
@@ -149,10 +182,10 @@ TextureImporter:
       name: ChaoRealOficial2_3
       rect:
         serializedVersion: 2
-        x: 177
-        y: 215
-        width: 64
-        height: 64
+        x: 96
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bce30dd2300314c0800000000000000
-      internalID: -4318107399261786952
+      spriteID: 02897a2fda5b2624e8498d51275f29ef
+      internalID: 1321710473
       vertices: []
       indices: 
       edges: []
@@ -170,10 +203,10 @@ TextureImporter:
       name: ChaoRealOficial2_4
       rect:
         serializedVersion: 2
-        x: 45
-        y: 151
-        width: 64
-        height: 64
+        x: 128
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,8 +214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86b6a0ed502b32820800000000000000
-      internalID: 2892351123971795816
+      spriteID: f5bf9e26962eeda448844b7606a67262
+      internalID: -1624397410
       vertices: []
       indices: 
       edges: []
@@ -191,10 +224,10 @@ TextureImporter:
       name: ChaoRealOficial2_5
       rect:
         serializedVersion: 2
-        x: 111
-        y: 182
-        width: 64
-        height: 64
+        x: 0
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d568dcb4d1584a9e0800000000000000
-      internalID: -1611016405819488675
+      spriteID: 0fedf5ad032f6544ab42220c23e55090
+      internalID: 579101248
       vertices: []
       indices: 
       edges: []
@@ -212,10 +245,10 @@ TextureImporter:
       name: ChaoRealOficial2_6
       rect:
         serializedVersion: 2
-        x: 111
-        y: 111
-        width: 64
-        height: 64
+        x: 32
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,8 +256,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4618f5fd336708da0800000000000000
-      internalID: -5944621542966066844
+      spriteID: ca9b6427780078d4cbb0fcd106ce1779
+      internalID: -185732345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f8a0c7740e74e459fbe2e53e58fd71
+      internalID: 281256353
       vertices: []
       indices: 
       edges: []
@@ -233,10 +287,10 @@ TextureImporter:
       name: ChaoRealOficial2_8
       rect:
         serializedVersion: 2
-        x: 45
-        y: 87
-        width: 64
-        height: 64
+        x: 128
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,8 +298,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aa81636bb7b19880800000000000000
-      internalID: -8605895397474202973
+      spriteID: 33ab1306afdeab94d9faabe92bd6599b
+      internalID: 1093484214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c747e0f5bb17e634cb8e0d92c8a095e9
+      internalID: -1847330489
       vertices: []
       indices: 
       edges: []
@@ -254,10 +329,10 @@ TextureImporter:
       name: ChaoRealOficial2_10
       rect:
         serializedVersion: 2
-        x: 177
-        y: 151
-        width: 64
-        height: 64
+        x: 32
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,8 +340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b61ab121d32215b0800000000000000
-      internalID: -5399213622142822728
+      spriteID: ffa2a02087e7dc94c8bfa8f3af2db38d
+      internalID: 1936699613
       vertices: []
       indices: 
       edges: []
@@ -275,10 +350,10 @@ TextureImporter:
       name: ChaoRealOficial2_11
       rect:
         serializedVersion: 2
-        x: 177
-        y: 87
-        width: 64
-        height: 64
+        x: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,8 +361,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4b2ffef243008940800000000000000
-      internalID: 5296236748068563786
+      spriteID: f5e6382ac4ea5d24e934052f63c15fd4
+      internalID: 32906911
       vertices: []
       indices: 
       edges: []
@@ -296,10 +371,10 @@ TextureImporter:
       name: ChaoRealOficial2_12
       rect:
         serializedVersion: 2
-        x: 45
-        y: 23
-        width: 64
-        height: 64
+        x: 96
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,8 +382,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7073cd4cf2bd7c50800000000000000
-      internalID: 6664679820284358778
+      spriteID: 67e54569c75d523489ecf99c3919b684
+      internalID: 1394164361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ec30a939820a5458ae0a64ae541374
+      internalID: 1682313550
       vertices: []
       indices: 
       edges: []
@@ -317,10 +413,10 @@ TextureImporter:
       name: ChaoRealOficial2_14
       rect:
         serializedVersion: 2
-        x: 111
-        y: 43
-        width: 64
-        height: 64
+        x: 32
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,8 +424,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b545cc1e032ffd0800000000000000
-      internalID: -2309729912533787840
+      spriteID: fc3109a10067c94408ebb55b11348089
+      internalID: 1792177002
       vertices: []
       indices: 
       edges: []
@@ -338,10 +434,10 @@ TextureImporter:
       name: ChaoRealOficial2_15
       rect:
         serializedVersion: 2
-        x: 177
-        y: 23
-        width: 64
-        height: 64
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,8 +445,428 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3373d5c46fd97a1f0800000000000000
-      internalID: -1033683908289546445
+      spriteID: 9d301e0784d0ba2459d5f8f7ceaffbbd
+      internalID: 735916192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e059f4b7c0e140145b1d177df9aa2c1f
+      internalID: 1777230596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73567c2172844724784fb4e91db974a3
+      internalID: 1114042862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a63d68c4737304dbf736f9959179b4
+      internalID: -1908441367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bb522c05878944580f73c17ab58f34
+      internalID: -1802252422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ad936103263fd4d821d19c5338d8a5
+      internalID: 644050236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0141debd262a9a44197c82ae0b0b8ea5
+      internalID: 306608623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ba82f98b539d048ab390e6d2daad74
+      internalID: -1688821046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f343620324f0841be9f240556c693d
+      internalID: 1808082526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cade6be2d89037498ad07cfb6a51e28
+      internalID: -1988912758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b5d55f975b91444b9b218b9ff5d867
+      internalID: -2127994110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804ec4f141be7d646b1f5ea33fa8b6f1
+      internalID: 1912529729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64a47bf6706d8e489ad7a034f0b539d
+      internalID: 2096942956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1143904c6135f1d4c940c408057b356b
+      internalID: 2126502759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f9cf0f88b2a2f438e67aac8d3ff5d0
+      internalID: -799791299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3c4eb573056f6479fe9c66d21b9004
+      internalID: 1583061968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc02f99f5a17804aaa46c8df662059c
+      internalID: -633194279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd0c2568a4a5b64a946e2ba83abf249
+      internalID: -1728011565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f05decacb8e0094a926ebcd53389292
+      internalID: 1124513953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca16d56527720884b91c6fabb0bd8472
+      internalID: -388727166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoRealOficial2_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7d7b173a963084e8d3de6f14bc40b6
+      internalID: 525232952
       vertices: []
       indices: 
       edges: []
@@ -366,17 +882,42 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ChaoRealOficial2_8: -8605895397474202973
-      ChaoRealOficial2_10: -5399213622142822728
-      ChaoRealOficial2_0: 2779042383628015301
-      ChaoRealOficial2_5: -1611016405819488675
-      ChaoRealOficial2_3: -4318107399261786952
-      ChaoRealOficial2_12: 6664679820284358778
-      ChaoRealOficial2_4: 2892351123971795816
-      ChaoRealOficial2_11: 5296236748068563786
-      ChaoRealOficial2_14: -2309729912533787840
-      ChaoRealOficial2_15: -1033683908289546445
-      ChaoRealOficial2_6: -5944621542966066844
+      ChaoRealOficial2_16: 1777230596
+      ChaoRealOficial2_33: 1124513953
+      ChaoRealOficial2_8: 1093484214
+      ChaoRealOficial2_35: 525232952
+      ChaoRealOficial2_21: 306608623
+      ChaoRealOficial2_19: -1802252422
+      ChaoRealOficial2_20: 644050236
+      ChaoRealOficial2_22: -1688821046
+      ChaoRealOficial2_10: 1936699613
+      ChaoRealOficial2_0: 1944007238
+      ChaoRealOficial2_2: -686459631
+      ChaoRealOficial2_30: 1583061968
+      ChaoRealOficial2_5: 579101248
+      ChaoRealOficial2_3: 1321710473
+      ChaoRealOficial2_29: -799791299
+      ChaoRealOficial2_12: 1394164361
+      ChaoRealOficial2_25: -2127994110
+      ChaoRealOficial2_31: -633194279
+      ChaoRealOficial2_9: -1847330489
+      ChaoRealOficial2_1: 722090608
+      ChaoRealOficial2_23: 1808082526
+      ChaoRealOficial2_18: -1908441367
+      ChaoRealOficial2_28: 2126502759
+      ChaoRealOficial2_24: -1988912758
+      ChaoRealOficial2_27: 2096942956
+      ChaoRealOficial2_4: -1624397410
+      ChaoRealOficial2_11: 32906911
+      ChaoRealOficial2_32: -1728011565
+      ChaoRealOficial2_7: 281256353
+      ChaoRealOficial2_14: 1792177002
+      ChaoRealOficial2_17: 1114042862
+      ChaoRealOficial2_15: 735916192
+      ChaoRealOficial2_6: -185732345
+      ChaoRealOficial2_26: 1912529729
+      ChaoRealOficial2_13: 1682313550
+      ChaoRealOficial2_34: -388727166
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
