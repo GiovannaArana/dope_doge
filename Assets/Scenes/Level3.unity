@@ -1507,6 +1507,10 @@ PrefabInstance:
       propertyPath: endHud
       value: 
       objectReference: {fileID: 1079100410}
+    - target: {fileID: 1016116849351266023, guid: 2a08165bfb9c9394480ccf828076679d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1772149990046680260, guid: 2a08165bfb9c9394480ccf828076679d, type: 3}
       propertyPath: bonk
       value: 
@@ -1523,6 +1527,10 @@ PrefabInstance:
       propertyPath: mvsObj.Array.data[1]
       value: 
       objectReference: {fileID: 1525075969}
+    - target: {fileID: 3587264765912582955, guid: 2a08165bfb9c9394480ccf828076679d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8683795771275410401, guid: 2a08165bfb9c9394480ccf828076679d, type: 3}
       propertyPath: m_Name
       value: DoggoOficial

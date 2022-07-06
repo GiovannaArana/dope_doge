@@ -18,12 +18,17 @@ public class Bonk : MonoBehaviour, IMoveBehaviour {
         return new Bonk(player);
     }
 
-    public void Execute(){
+    public void Execute(){        
 
         int signal = 1;
 
-        if(!player.GetComponent<SpriteRenderer>().flipX)
-            signal = -1;
+        if(player.transform.localScale.x > 0){
+            player.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            signal = -1;            
+        }
+        else{
+            player.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        }       
 
         Vector3 direction = new Vector3(signal * 2f, 0, 0);
         Vector3 pos = player.transform.position + direction;

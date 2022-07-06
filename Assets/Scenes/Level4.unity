@@ -196,6 +196,14 @@ PrefabInstance:
       propertyPath: endHud
       value: 
       objectReference: {fileID: 1386504707}
+    - target: {fileID: 1016116849351266023, guid: 2a08165bfb9c9394480ccf828076679d, type: 3}
+      propertyPath: m_Name
+      value: Square (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1016116849351266023, guid: 2a08165bfb9c9394480ccf828076679d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1772149990046680260, guid: 2a08165bfb9c9394480ccf828076679d, type: 3}
       propertyPath: bonk
       value: 
@@ -1437,7 +1445,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 15
-      m_TileSpriteIndex: 20
+      m_TileSpriteIndex: 19
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1487,7 +1495,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 24
-      m_TileSpriteIndex: 19
+      m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1623,9 +1631,9 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 1321710473, guid: 56c6fca5d4bb26240b9c8a3aa265641b, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 1682313550, guid: 56c6fca5d4bb26240b9c8a3aa265641b, type: 3}
-  - m_RefCount: 1
     m_Data: {fileID: -1624397410, guid: 56c6fca5d4bb26240b9c8a3aa265641b, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1682313550, guid: 56c6fca5d4bb26240b9c8a3aa265641b, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 76
     m_Data:
@@ -1982,6 +1990,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2012319583}
     m_Modifications:
+    - target: {fileID: 879372759054172310, guid: 8dc29a19670f9914bb7c27115cbbf0ec, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 879372759054172310, guid: 8dc29a19670f9914bb7c27115cbbf0ec, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.51
+      objectReference: {fileID: 0}
     - target: {fileID: 879372759462461097, guid: 8dc29a19670f9914bb7c27115cbbf0ec, type: 3}
       propertyPath: m_Name
       value: FadeIn

@@ -81,8 +81,8 @@ public class BoxBehaviour : MonoBehaviour, IMoveBehaviour {
     	Vector3 newPos = transform.position;
     	newPos.y = transform.position.y - 0.22f;
     	Instantiate(prefabBoxMove, transform.position, gameObject.transform.rotation);
-    	//Destroy(gameObject);
-    	gameObject.SetActive(false);
+    	Destroy(gameObject);
+    	//gameObject.SetActive(false);
     }
 
     public void PseudoUpdate(){}

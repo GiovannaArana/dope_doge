@@ -25,7 +25,9 @@ public class MoveLeft : MonoBehaviour, IMoveBehaviour {
     	Vector3 pos = player.transform.position + direction;
         Collider2D col2d = Physics2D.OverlapBox(pos, new Vector2(1f, 1f), 1f, 1);
         bool isPossible = true;
-        player.GetComponent<SpriteRenderer>().flipX = false;
+		if(player.transform.localScale.x < 0){
+        	player.transform.localScale = new Vector3(player.transform.localScale.x * -1, player.transform.localScale.y, player.transform.localScale.z);
+		}
 
         // player.GetComponent<PlayerMovement>().bonk.GetComponent<SpriteRenderer>().flipX = false;
         // player.GetComponent<PlayerMovement>().bonkSmoke.GetComponent<SpriteRenderer>().flipX = false;

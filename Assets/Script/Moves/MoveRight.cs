@@ -25,7 +25,9 @@ public class MoveRight : MonoBehaviour, IMoveBehaviour {
     	Vector3 pos = player.transform.position + direction;
         Collider2D col2d = Physics2D.OverlapBox(pos, new Vector2(1f, 1f), 1f, 1);
         bool isPossible = true;
-        player.GetComponent<SpriteRenderer>().flipX = true;
+        if(player.transform.localScale.x > 0){
+        	player.transform.localScale = new Vector3(player.transform.localScale.x * -1, player.transform.localScale.y, player.transform.localScale.z);
+		}
         
         // player.transform.position.x = -1 * player.transform.x;
 
