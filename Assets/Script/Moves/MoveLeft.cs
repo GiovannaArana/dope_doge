@@ -29,8 +29,6 @@ public class MoveLeft : MonoBehaviour, IMoveBehaviour {
         	player.transform.localScale = new Vector3(player.transform.localScale.x * -1, player.transform.localScale.y, player.transform.localScale.z);
 		}
 
-        // player.GetComponent<PlayerMovement>().bonk.GetComponent<SpriteRenderer>().flipX = false;
-        // player.GetComponent<PlayerMovement>().bonkSmoke.GetComponent<SpriteRenderer>().flipX = false;
 
     	if(col2d == null  || ((col2d != null && (col2d.gameObject.tag == "Move" || col2d.gameObject.tag == "Box" || col2d.gameObject.tag == "EndGameFlag")))){
 

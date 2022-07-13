@@ -39,8 +39,7 @@ public class Bonk : MonoBehaviour, IMoveBehaviour {
             funcs.Bonk(player);
         }
         
-        if(col2d != null && col2d.gameObject.tag == "Trash"){
-            Debug.Log("ue");
+        if(col2d != null && col2d.gameObject.tag == "Trash"){            
             col2d.gameObject.GetComponent<Trash>().Explode();
             funcs.Bonk(player);
         }

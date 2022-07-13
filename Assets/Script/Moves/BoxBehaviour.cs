@@ -48,7 +48,7 @@ public class BoxBehaviour : MonoBehaviour, IMoveBehaviour {
     	int signal = 1;
     	int aPos = -1;
 
-    	if(!player.GetComponent<SpriteRenderer>().flipX)
+    	if(player.transform.localScale.x > 0)
     		signal = -1;
 
     	Vector3 direction = new Vector3(signal * 2f, 0, 0);

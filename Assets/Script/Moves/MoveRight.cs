@@ -28,11 +28,7 @@ public class MoveRight : MonoBehaviour, IMoveBehaviour {
         if(player.transform.localScale.x > 0){
         	player.transform.localScale = new Vector3(player.transform.localScale.x * -1, player.transform.localScale.y, player.transform.localScale.z);
 		}
-        
-        // player.transform.position.x = -1 * player.transform.x;
 
-        // player.GetComponent<PlayerMovement>().bonk.GetComponent<SpriteRenderer>().flipX = true;
-        // player.GetComponent<PlayerMovement>().bonkSmoke.GetComponent<SpriteRenderer>().flipX = true;
 
     	if(col2d == null || ((col2d != null && (col2d.gameObject.tag == "Move" || col2d.gameObject.tag == "Box" || col2d.gameObject.tag == "EndGameFlag")))){
 

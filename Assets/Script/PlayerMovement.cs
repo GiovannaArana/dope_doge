@@ -25,11 +25,10 @@ public class PlayerMovement : MonoBehaviour {
         key = new KeyCode[6] {KeyCode.E, KeyCode.Q, KeyCode.A, KeyCode.S, KeyCode.D, KeyCode.F};
 
         for(int i = 0; i < mvs.Length; i++){
-
+			
         	if(mvsObj[i] == null)
         		mvs[i] = new Empty();
-
-        	else{
+        	else{				
         		mvs[i] = mvsObj[i].GetComponent<IMoveBehaviour>().GetMove(gameObject);
         		mvsObj[i].SetActive(false);
         	}

@@ -1221,7 +1221,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.27058825, g: 0.41568628, b: 0.59607846, a: 0}
+  m_BackGroundColor: {r: 0.5411765, g: 0.7686275, b: 0.90196085, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1345,6 +1345,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1259200723}
     m_Modifications:
+    - target: {fileID: 3905998390361364299, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1688.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3905998390361364299, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 726.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 3905998390361364299, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 613.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3905998390361364299, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 264
+      objectReference: {fileID: 0}
     - target: {fileID: 4179564799877553896, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1429,9 +1445,69 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4179564799877553898, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4179564799877553903, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
       propertyPath: m_Name
       value: CanvaCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635221771771598, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_Name
+      value: Slot3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222027205011, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222027205011, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222027205011, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222027205011, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -174.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222027205011, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222124978256, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_Name
+      value: Slot4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222737110712, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1101
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222737110712, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 473.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222737110712, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222737110712, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 166
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222737110712, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635222902680083, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_Name
+      value: Slot1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509635223110515867, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
+      propertyPath: m_Name
+      value: Slot2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2332705213d03d54ba4fbe307414cfdf, type: 3}
